@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./dist/css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
 
 </head>
 
@@ -404,12 +404,12 @@
     
             <div class="sign-up">
                 <p class="footer__title">Подпишитесь на рассылку</p>
-                <form class="footer-wrap">
+                <form class="input">
                     <label for="mail"></label>
-                    <input class="input-footer" type="email" name="mail" id="mail" placeholder="E-mail" />
-                    <button type="submit" class=" btn btn--sign">
+                    <input class="input__footer" type="email" name="mail" id="mail" placeholder="E-mail" />
+                    <button type="submit" class=" btn input__btn">
                         Подписаться
-                        <svg class="btn__icon" width="24" height="24">
+                        <svg class="input__icon" width="24" height="24">
                             <use href="./img/sprite.svg#icon-plane"></use>
                         </svg>
                     </button>
@@ -452,12 +452,12 @@
                     <textarea class="modal__textarea" name="comment" id="comment" placeholder="Введите текст"></textarea> 
                 </div>
                 
-                    <label class="modal__wrap policy">
-                        <input class="modal__checkbox" type="checkbox" name="check" value="check">
-                        <svg class="modal__checked" width="16" height="15">
+                    <label class="checkbox">
+                        <input class="checkbox__input" type="checkbox" name="check" value="check">
+                        <svg class="checkbox__icon" width="16" height="15">
                             <use href="./img/sprite.svg#icon-check"></use>
                         </svg>
-                        <span class="modal__text">Соглашаюсь с рассылкой и принимаю&nbsp;</span><a href="#" class="modal__link">Условия договора</a>
+                        <span class="checkbox__text">Соглашаюсь с рассылкой и принимаю&nbsp;</span><a href="#" class="checkbox__link">Условия договора</a>
                     </label>  
                 <button type="submit" class="btn modal__btn">
                     Отправить
