@@ -326,7 +326,7 @@ img {
   height: auto;
 }
 
-.modal__btn, .hero__btn, .input__btn {
+.hero__btn, .modal__btn, .input__btn {
   height: 50px;
   width: 200px;
   font-weight: 700;
@@ -347,7 +347,7 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__btn:hover, .hero__btn:hover, .input__btn:hover, .modal__btn:focus, .hero__btn:focus, .input__btn:focus {
+.hero__btn:hover, .modal__btn:hover, .input__btn:hover, .hero__btn:focus, .modal__btn:focus, .input__btn:focus {
   background-color: #188CE8;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -465,6 +465,44 @@ img {
 .contacts__icon {
   margin-right: 10px;
   fill: currentColor;
+}
+
+.hero {
+  max-width: 1600px;
+  height: 600px;
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/studio/hero-bg.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/studio/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #2f303a;
+}
+
+.hero__tagline {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 696px;
+}
+
+.hero__btn {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .backdrop {
@@ -633,44 +671,6 @@ img {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: #188CE8;
-}
-
-.hero {
-  max-width: 1600px;
-  height: 600px;
-  padding-top: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/studio/hero-bg.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/studio/hero-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: #2f303a;
-}
-
-.hero__tagline {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  width: 696px;
-}
-
-.hero__btn {
-  margin-left: auto;
-  margin-right: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .checkbox {
