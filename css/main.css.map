@@ -10,7 +10,7 @@
         "../sass/components/header/_logo.scss",
         "../sass/components/header/_header-nav.scss",
         "../sass/components/header/_header-contacts.scss",
-        "../sass/components/hero/_hero.scss",
+        "../sass/components/modal/_hero.scss",
         "../sass/components/modal/_backdrop.scss",
         "../sass/components/modal/_modal.scss",
         "../sass/components/modal/_checkbox.scss",
